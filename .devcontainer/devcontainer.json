@@ -1,0 +1,13 @@
+// See: https://github.com/swift-server/vscode-swift/issues/82#issuecomment-1000895376
+{
+    "name": "Swift Demo",
+    "build": { "dockerfile": "Dockerfile" },
+    "extensions": [
+      "sswg.swift-lang",
+      "vadimcn.vscode-lldb"
+    ],
+    "settings": {
+      "lldb.adapterType": "bundled",
+      "lldb.executable": "/usr/bin/lldb"
+    }
+}
