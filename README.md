@@ -4,11 +4,9 @@ This repository shows how to use the [Swift for VS Code Extension](https://forum
 ## Configuration
 1. Create a `.devcontainer` directory inside your workspace
 2. Place the `devcontainer.json` file as well as your `Dockerfile` inside the `.devcontainer` directory
-    1. Dockerfiles for different versions of Swift can be found [here](https://github.com/apple/swift-docker)
-    2. See [.devcontainer](.devcontainer) for an example configuration
+    1. Dockerfiles for different versions of Swift are available here: https://github.com/apple/swift-docker
+    2. See [.devcontainer](https://github.com/fabianehlert/codespace-demo/tree/main/.devcontainer) for an example configuration
 4. Rebuild your Codespace using this container configuration
 5. Install and enable the [Swift for VS Code Extension](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang) in your Codespace
 
----
-
-More info on deploying a custom dev container: [Codespace docs](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-codespaces-for-your-project#creating-a-custom-codespace-configuration)
+More information on deploying a custom dev container: [Codespace docs](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/configuring-codespaces-for-your-project#creating-a-custom-codespace-configuration)
